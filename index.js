@@ -13,6 +13,7 @@ function nowServing(theLine){
 }
 }
 
+<<<<<<< HEAD
 function currentLine(line){
   if (line.length === 0){
     return "The line is currently empty."
@@ -24,3 +25,8 @@ function currentLine(line){
     return (`The line is currently: ${array.join(", ")}`)
     }
 }
+
+function currentline(line){
+    return (`The line is currently empty`)
+  }
+>>>>>>> 779741945eb77b05ea82a28e8c52a859c37f97ed
